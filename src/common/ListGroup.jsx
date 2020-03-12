@@ -14,7 +14,7 @@ class ListGroup extends Component {
 
 //Assigning default value to props
 ListGroup.defaultProps = {
-    valueProperty: '_id',
+    valueProperty: 'id',
     textProperty: 'name'
 }
 
