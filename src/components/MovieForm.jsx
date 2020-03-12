@@ -26,6 +26,7 @@ class MovieForm extends Form
     }
 
     componentDidMount = () => {
+        
         this.setState({
             genres: getGenres()
         })

@@ -9,6 +9,7 @@ import NotFound from './components/NotFound';
 import LoginForm from './components/LoginForm';
 import Register from './components/Register';
 import './App.css';
+import ProtectedRoute from './common/ProtectedRoute';
 
 
 
@@ -19,7 +20,7 @@ function App() {
         <Switch>
           <Route path="/movies/create" component={ MovieForm }></Route>
           <Route path="/movies" component={ MovieList }></Route>
-          <Route path="/customers" component={ Customers}></Route>
+          <ProtectedRoute path='/customers' component={ Customers }></ProtectedRoute>
           <Route path="/rentals" component={ Rental }></Route>
           <Route path="/not-found" component={ NotFound}></Route>
           <Route path="/login" component={ LoginForm }></Route>
