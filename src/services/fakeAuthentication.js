@@ -1,5 +1,5 @@
 const fakeAuth = {
-    isAuthenticated: false,
+    isAuthenticated: true,
     // authenticated(cb) {
     //     this.isAuthenticated = true,
     //     setTimeOut(cb, 100);
